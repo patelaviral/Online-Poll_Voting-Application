@@ -43,6 +43,8 @@ Built using **Spring Boot** for the backend and **Angular + Bootstrap** for the 
 | **Vote on Poll** | `/api/polls/vote` | **POST** | Submits a vote for a selected option in a poll. | Poll ID + Option Index | **204 No Content**. |
 
 ---
+
+```
 Online-Poll_Voting-Application/
 │
 ├── poll-app/ # Angular Frontend
@@ -58,6 +60,7 @@ Online-Poll_Voting-Application/
 │ └── Service
 ├── application.properties
 └── pom.xml
+```
 
 
 ---
